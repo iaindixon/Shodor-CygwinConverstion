@@ -4,27 +4,14 @@ html, body  {
     background-color: #FBFBFB; 
 }
 
-/****Top Line****/
-
-#topLine {
-    position:fixed;
-    z-index: 100;
-    width: 100%;
-    height: 10px;
-    background-color: #97AEBD;
-    box-shadow: 0 1px 1px -1px black;
-}
     
 /****Title****/
 
 #title {
     position: fixed;
     z-index: 101;
-    top: 10px;
-    left: 30px;
-    width: 300px;
+    width: 100%;
     background-color: #97AEBD;
-    box-shadow: 0 1px 1px -1px black;
 }
 
 #title h1 {
@@ -32,6 +19,9 @@ html, body  {
     margin-top: 0px;
     text-align: center;
     color: white;
+    float:left;
+    padding-left:6px;
+    padding-top:4px;
 } 
 
 /****Encapsulatron****/
@@ -41,25 +31,32 @@ html, body  {
     height: 1000px;
     width: 100%;    
     background-color: inherit;
-    border: 1px solid black;
 }
 
 .container .col-sm-8 {
     position: relative;
 }
 
+.container .col-sm-8 h3 {
+
+    color:white;
+}
+
 .container .col-sm-4 {
     position: relative;
     background-color: #D8E1E6;
-    border-left: 1px dashed black;   
+    border-left: 1px dashed #97AEBD;   
 }
+
 /****Header****/
 
 .header {
     background-color: #5A798C ;
+    margin-left:-15px;
 }
 
 .header h3 {
-    padding: 2px;  
+    padding:4px;  
+    padding-left:15px;
     text-transform: capitalize;
 }
