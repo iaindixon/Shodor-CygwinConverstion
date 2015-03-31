@@ -1,0 +1,33 @@
+html, body  {
+    height: 100%;
+    width: 100%; 
+    background-color: #FBFBFB; 
+}
+
+/****Top Line****/
+
+.topLine {
+    position:fixed;
+    width: 100%;
+    height: 10px;
+    background-color: #97AEBD;
+    box-shadow: 0 1px 1px -1px black;
+}
+    
+/****Title****/
+
+.title {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    background-color: #97AEBD;
+    box-shadow: 0 1px 1px -1px black;
+}
+
+.title h1{
+    position:relative;
+    margin-top: 0px;
+    text-align: center;
+    color:white;
+} 
