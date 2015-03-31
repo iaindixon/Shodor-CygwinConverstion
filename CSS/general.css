@@ -4,6 +4,9 @@ html, body  {
     background-color: #FBFBFB; 
 }
 
+body{
+    position:relative;
+}
     
 /****Title****/
 
@@ -24,10 +27,25 @@ html, body  {
     padding-top:4px;
 } 
 
+
+.nav {
+    float:right;
+    padding-right:40px;
+    font-size:16px;
+    margin-top:9px;
+}
+
+.nav a{
+    color:white;
+}
+
+.nav li a:hover{
+    color:black;
+}
 /****Encapsulatron****/
 .container {
     position: relative;
-    top: 130px;  
+    top: 50px;  
     height: 1000px;
     width: 100%;    
     background-color: inherit;
