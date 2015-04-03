@@ -5,7 +5,7 @@ html, body  {
 }
 
 body{
-    position:relative;
+    position: relative;
 }
     
 /****Title****/
@@ -22,27 +22,29 @@ body{
     margin-top: 0px;
     text-align: center;
     color: white;
-    float:left;
-    padding-left:6px;
-    padding-top:4px;
+    float: left;
+    padding-left: 6px;
+    padding-top: 4px;
 } 
 
+/****Title****/
 
 .nav {
-    float:right;
-    padding-right:40px;
-    font-size:16px;
-    margin-top:9px;
+    float: right;
+    padding-right: 40px;
+    font-size: 16px;
+    margin-top: 9px;
 }
 
 .nav a{
-    color:white;
+    color: white;
 }
 
-.nav li a:hover{
-    color:black;
+.nav li a: hover{
+    color: black;
 }
-/****Encapsulatron****/
+/****Container****/
+
 .container {
     position: relative;
     top: 50px;  
@@ -56,19 +58,23 @@ body{
 }
 
 .container .col-sm-12 h3 {
-
-    color:white;
+    color: white;
 }
 
+.container .row .col-sm-12 .center .picture {
+    width: 100px;
+    max-width: 600px;
+    min-width: 300px;   
+}
 /****Header****/
 
 .header {
     background-color: #5A798C ;
-    margin-left:-15px;
+    margin-left: -15px;
 }
 
 .header h3 {
-    padding:4px;  
-    padding-left:15px;
+    padding: 4px;  
+    padding-left: 15px;
     text-transform: capitalize;
 }
