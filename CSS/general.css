@@ -40,8 +40,8 @@ body{
     color: white;
 }
 
-.nav li a: hover{
-    color: black;
+.nav a:hover{
+    color:black;
 }
 /****Container****/
 
